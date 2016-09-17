@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inducesmile.com.androidtabwithswipe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Chemigo"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="ChemiGo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="ChemiGo" />
+        <activity
+            android:name=".Aboutus"
+            android:label="ChemiGo" />
+        <activity android:name=".Unsur" />
+        <activity android:name=".ChemilationUnsur1" />
+        <activity android:name=".Senyawa" />
+        <activity android:name=".Campuran" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling" />
+        <activity android:name=".Homogen" />
+        <activity android:name=".HomogenDetailActivity" />
+        <activity
+            android:name=".Scrolling_senyawa_activity"
+            android:label="@string/title_activity_scrolling_senyawa_activity"></activity>
+    </application>
+
+</manifest>
