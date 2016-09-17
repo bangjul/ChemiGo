@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/chemilation9"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:id="@+id/unsur1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/hello_world"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/add"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:padding="16dp"/>
+                <TextView
+                    android:id="@+id/unsur_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen_shot"
+                    android:layout_alignLeft="@+id/screen_shot"
+                    android:text="unsur1"
+                    android:inputType="text"
+                    android:textColor="#0292ea"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/unsur2"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add"
+                    android:padding="16dp"/>
+                <TextView
+                    android:id="@+id/unsur_name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen_shot"
+                    android:layout_alignLeft="@+id/screen_shot"
+                    android:text="unsur2"
+                    android:inputType="text"
+                    android:textColor="#0292ea"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/unsur3"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/add"
+                    android:padding="16dp"/>
+                <TextView
+                    android:id="@+id/unsur_name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/screen_shot"
+                    android:layout_alignLeft="@+id/screen_shot"
+                    android:text="unsur3"
+                    android:inputType="text"
+                    android:textColor="#0292ea"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_marginTop="75dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+                <Button
+                    android:id="@+id/mix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MIX"
+                    android:textColor="@color/mixtext"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/mix" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+<!-- From: file:/C:/Users/bangjul/AndroidStudioProjects/AndroidTabWithSwipe/app/src/main/res/layout/fragment_chemilation.xml -->

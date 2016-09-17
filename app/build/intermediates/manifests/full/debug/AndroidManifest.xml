@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="inducesmile.com.androidtabwithswipe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Chemigo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="inducesmile.com.androidtabwithswipe.SplashScreen"
+            android:label="ChemiGo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="inducesmile.com.androidtabwithswipe.MainActivity"
+            android:label="ChemiGo" />
+        <activity
+            android:name="inducesmile.com.androidtabwithswipe.Aboutus"
+            android:label="ChemiGo" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.Unsur" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.ChemilationUnsur1" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.Senyawa" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.Campuran" />
+        <activity
+            android:name="inducesmile.com.androidtabwithswipe.ScrollingActivity"
+            android:label="@string/title_activity_scrolling" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.Homogen" />
+        <activity android:name="inducesmile.com.androidtabwithswipe.HomogenDetailActivity" />
+        <activity
+            android:name="inducesmile.com.androidtabwithswipe.Scrolling_senyawa_activity"
+            android:label="@string/title_activity_scrolling_senyawa_activity" />
+    </application>
+
+</manifest>
